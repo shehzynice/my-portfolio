@@ -1,0 +1,68 @@
+/* nav{
+
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content; /*get the width of it's content*/
+    /* display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px); */
+     
+/* } */
+
+/* nav a{
+
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+   
+} */
+
+/* nav a:hover{
+
+    background: rgba(0, 0, 0, 0.4);
+} */
+
+/* nav a.active{
+
+    background: var(--color-primary);
+    color: var(--color-bg);
+} */
+
+
+nav {
+    display: flex;
+    justify-content: center; /* Centering the nav links horizontally */
+    position: fixed; /* Keeping the nav bar fixed at the top */
+    top: 0; /* Set to top of the page */
+    width: 100%; /* Spanning full width of the page */
+    background-color: #ffffff00; /* Background color of the header */
+    padding: 10px; /* Padding around the nav */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for visual effect */
+  }
+  
+  nav a {
+    margin: 0 15px; /* Spacing between nav items */
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Color for the links */
+    font-size: 18px; /* Font size */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  nav a.active {
+    color: #007BFF; /* Active link color */
+  }
+  
+  nav a:hover {
+    color: #007BFF; /* Hover effect */
+  }
+  
